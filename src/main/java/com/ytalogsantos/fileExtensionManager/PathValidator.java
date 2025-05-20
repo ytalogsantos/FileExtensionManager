@@ -17,7 +17,7 @@ public final class PathValidator {
         }
     }
 
-    public static Boolean validateDirectory(Path directoryPath) {
+    public static Boolean validateDirectoryPath(Path directoryPath) {
 
         if (!Files.exists(directoryPath)) return false;
         if (!Files.isDirectory(directoryPath)) return false;
