@@ -13,7 +13,7 @@ public final class PathValidator {
             return Path.of(inputPath);
         } catch (InvalidPathException exception) {
             System.out.println("Invalid Input path.");
-            return null; // I don't know if is right to do this, but for now that's it.
+            return null; // I don't know if it's right to do this, but for now that's it.
         }
     }
 

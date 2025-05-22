@@ -15,7 +15,7 @@ public class Main {
         if (!isDirectoryPathValid) {
             System.out.println("This path isn't valid. Check if the directory actually exists or if it isn't empty.");
         } else {
-            FileManager.sortFilesByExtension(directoryPath);
+            FileManager.sortFileByExtension(directoryPath);
         }
 
 
